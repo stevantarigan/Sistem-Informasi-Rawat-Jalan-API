@@ -1,61 +1,131 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Outpatient Information System API
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+  <img src="https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/RESTful-API-009688?style=for-the-badge" alt="RESTful API">
+  <img src="https://img.shields.io/badge/Postman-API%20Testing-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
 </p>
 
-## About Laravel
+<p align="center">
+  A web-based outpatient information system for managing patient records, doctor information, and outpatient appointments through RESTful API integration.
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## About The Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The **Outpatient Information System API** is a web-based application developed to support outpatient healthcare administration and information management.
 
-## Learning Laravel
+The system provides integrated functionality for managing patient records, doctor information, and outpatient appointments. It uses RESTful APIs to facilitate communication between frontend and backend components, enabling structured data exchange and efficient information management.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Developed using Laravel and MySQL, the application combines backend processing, relational database management, and responsive frontend interfaces built with HTML, CSS, and JavaScript.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Key Features
 
-## Laravel Sponsors
+### 1. Patient Management
+- Manage and maintain patient information.
+- Store and organize patient records.
+- Support structured patient data management.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### 2. Doctor Management
+- Manage doctor information and records.
+- Organize doctor-related data.
+- Maintain centralized doctor information.
 
-### Premium Partners
+### 3. Outpatient Appointment Management
+- Manage outpatient appointment information.
+- Maintain appointment records.
+- Integrate patient and doctor information within appointment management.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+### 4. RESTful API
+- Develop API endpoints for patient, doctor, and appointment management.
+- Handle HTTP requests and responses.
+- Support structured data exchange between frontend and backend components.
 
-## Contributing
+### 5. Responsive User Interface
+- Build responsive frontend interfaces using HTML, CSS, and JavaScript.
+- Provide organized navigation and accessible system functionality.
+- Support interaction with backend API endpoints.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 6. API Documentation and Testing
+- Document API endpoints using Postman collections.
+- Organize API requests and responses for development reference.
+- Test API functionality and verify endpoint behavior.
 
-## Code of Conduct
+### 7. System Documentation
+- Prepare a system user guide.
+- Document application functionality and usage procedures.
+- Provide supporting documentation for system users.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Technology Stack
 
-## Security Vulnerabilities
+| Category | Technology |
+|---|---|
+| Programming Language | PHP |
+| Backend Framework | Laravel |
+| Database | MySQL |
+| API Architecture | RESTful API |
+| Frontend | HTML5, CSS3, JavaScript |
+| API Testing & Documentation | Postman |
+| Version Control | Git, GitHub |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## System Architecture
 
-## License
+The application follows a web-based architecture that integrates frontend interfaces with backend services through RESTful APIs.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**Backend:** Laravel handles application logic, API request processing, data validation, and database operations.
+
+**Database:** MySQL stores and manages patient information, doctor records, and outpatient appointment data.
+
+**Frontend:** HTML, CSS, and JavaScript provide responsive user interfaces that communicate with backend API endpoints.
+
+**API Documentation:** Postman collections are used to organize and document API endpoints, requests, and responses.
+
+## Database Management
+
+MySQL is used as the relational database management system to store and organize application data.
+
+The database structure supports the integration of the following main data entities:
+
+- **Patients:** Stores patient information and records.
+- **Doctors:** Maintains doctor information and records.
+- **Appointments:** Manages outpatient appointment information and its relationships with patients and doctors.
+
+The relational database structure supports organized data management and maintains consistency across the system's main functionalities.
+
+## API Documentation
+
+Postman is used to document and organize the RESTful API endpoints developed for the application.
+
+The API documentation covers the main system modules:
+
+- Patient management.
+- Doctor management.
+- Outpatient appointment management.
+
+Postman collections provide a structured reference for API requests and responses during development and testing.
+
+## Project Objectives
+
+- Improve the organization of outpatient administrative information.
+- Centralize patient and doctor data management.
+- Support outpatient appointment management.
+- Facilitate frontend and backend communication through RESTful APIs.
+- Provide structured API documentation for development and maintenance.
+- Support accessible system functionality through responsive user interfaces.
+
+## Developer
+
+**Stevan Tarigan**
+
+Full Stack Developer
+
+This project demonstrates full-stack web application development using Laravel, MySQL, RESTful API integration, responsive frontend implementation, API documentation with Postman, and relational database management.
+
+---
+
+<p align="center">
+  Developed using Laravel, MySQL, and RESTful API.
+</p>
